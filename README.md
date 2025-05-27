@@ -1,4 +1,4 @@
-# Tweet-Sentiment-Classifier
+# Tweet Sentiment Classifier
 
 This project applies Natural Language Processing and Machine Learning techniques to classify the sentiment of tweets into one of three classes: Positive, Negative, or Neutral. It also explores methods for handling imbalanced datasets and investigates the impact of replacing words with their synonyms.
 
