@@ -58,4 +58,4 @@ The code also includes a part with the experiment where the words not mentioned 
 
 ## Comments and Notes
 
-You can see the comments, markdowns, and notes throughout the notebook. It is important to read them to understand the decisions that were taken and how the dataset was analyzed/commented on
+You can see the comments, markdowns, and notes throughout the notebook. It is important to read them to understand the decisions that were taken and how the dataset was analyzed/commented on.
