@@ -48,7 +48,7 @@ Each cell where a model is used for prediction provides an overview of the resul
 
 ### Confusion matrices
 
-The confusion matrices are provided for testing each model. They help with the interpretation of the results and review of misclassifications. The matrices will look like this:
+The confusion matrices are provided for testing of each model. They help with the interpretation of the results and review of misclassifications. The matrices will look like this:
 
 ![Sentiment Analysis Workflow](CM-example-photo.png)
 
