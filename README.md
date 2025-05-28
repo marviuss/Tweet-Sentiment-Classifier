@@ -6,7 +6,7 @@ This project applies Natural Language Processing and Machine Learning techniques
 
 1) Download the project to your system. 
 2) Upload "glove.6B.100d.txt" file to the main folder where your files (specifically sentiment_classifier.ipynb) are stored (not "data/" folder).
-3) Open terminal in the project directory and install dependencies via ``` pip install -r requirements.txt ``` , if this does not work try providing a full path to the requirements file.
+3) Open terminal in the project directory and install dependencies via ``` pip install -r requirements.txt ``` , if this does not work, try providing a full path to the requirements file.
 4) Open  **sentiment_classifier.ipynb** file.
 5) Run each cell.
 
@@ -16,9 +16,9 @@ This project applies Natural Language Processing and Machine Learning techniques
 Before vectorization, the text undergoes tokenization and formatting processes to improve performance. Therefore, the tweets are converted to lowercase, unnecessary parts (stop words, links, and mentions) are removed, and they are tokenized (split into individual words).
 
 ### Vectorization
-Vectorization is conducted with the help of GloVe embeddings. Each token from a sentence is checked with keys in the GloVe dictionary and if a match is found it is assigned to a 100-dimensional vector. As part of the experiment, if a token does not match with any words within the dictionary it is replaced by one of its synonyms. 
+Vectorization is conducted with the help of GloVe embeddings. Each token from a sentence is checked with keys in the GloVe dictionary and if a match is found, it is assigned to a 100-dimensional vector. As part of the experiment, if a token does not match any words within the dictionary, it is replaced by one of its synonyms. 
 
-**Note** : If a tweet is empty the vector is filled with 0s. If a word and its synonym do not have a match they are skipped.
+**Note** : If a tweet is empty, the vector is filled with 0s. If a word and its synonym do not match, they are skipped.
 
 ## Models used
 
@@ -33,7 +33,7 @@ The setup of the models is explained in the code. In addition, hyperparameters f
 
 ### Data balancing
 
-The provided datasets are noticeably imbalanced. As a solution to this, I applied a SMOTE technique to oversample the datasets with similar values. Therefore the notebook consists of two parts with the tests on both balanced and imbalanced datasets.
+Provided datasets are noticeably imbalanced. As a solution to this, I applied a SMOTE technique to oversample the datasets with similar values. Therefore, the notebook consists of two parts with tests on both balanced and imbalanced datasets.
 
 ## Results sections
 
