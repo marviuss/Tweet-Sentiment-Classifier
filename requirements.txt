@@ -2,4 +2,4 @@ numpy
 nltk
 scikit-learn
 matplotlib
-imblearn
+imbalanced-learn
